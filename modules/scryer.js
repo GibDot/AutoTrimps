@@ -1,6 +1,6 @@
 var wantToScry = false;
 function useScryerStance() {
-var scry = 4;
+var scry = 5;
 if (game.global.uberNature == "Wind" && getEmpowerment() != "Wind") {
     scry = 5;
 }
